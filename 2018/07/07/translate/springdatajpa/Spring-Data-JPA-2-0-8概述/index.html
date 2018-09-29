@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="翻译,Spring Data JPA," />
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta name="keywords" content="技术博客">
+<meta name="description" content="概述Spring Data JPA是Spring Data大家族中的一员，可以轻松实现基于JPA的存储库。这个模块处理基于JPA的数据访问层的增强支持。它使构建使用数据访问技术的Spring驱动的应用程序变得更加容易。 在相当长的一段时间内，实现应用程序的数据访问层是相当麻烦的。必须编写太多的样板代码来执行简单的查询，以及执行分页和审计。Spring Data JPA旨在减少实际的工作量来显著改善">
+<meta name="keywords" content="翻译,Spring Data JPA">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2018/06/29/hello-world/index.html">
+<meta property="og:title" content="Spring Data JPA 2.0.8概述">
+<meta property="og:url" content="http://yoursite.com/2018/07/07/translate/springdatajpa/Spring-Data-JPA-2-0-8概述/index.html">
 <meta property="og:site_name" content="peter阡陌">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="概述Spring Data JPA是Spring Data大家族中的一员，可以轻松实现基于JPA的存储库。这个模块处理基于JPA的数据访问层的增强支持。它使构建使用数据访问技术的Spring驱动的应用程序变得更加容易。 在相当长的一段时间内，实现应用程序的数据访问层是相当麻烦的。必须编写太多的样板代码来执行简单的查询，以及执行分页和审计。Spring Data JPA旨在减少实际的工作量来显著改善">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-29T01:44:25.919Z">
+<meta property="og:updated_time" content="2018-07-09T09:38:53.920Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="Spring Data JPA 2.0.8概述">
+<meta name="twitter:description" content="概述Spring Data JPA是Spring Data大家族中的一员，可以轻松实现基于JPA的存储库。这个模块处理基于JPA的数据访问层的增强支持。它使构建使用数据访问技术的Spring驱动的应用程序变得更加容易。 在相当长的一段时间内，实现应用程序的数据访问层是相当麻烦的。必须编写太多的样板代码来执行简单的查询，以及执行分页和审计。Spring Data JPA旨在减少实际的工作量来显著改善">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/06/29/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/07/07/translate/springdatajpa/Spring-Data-JPA-2-0-8概述/"/>
 
 
 
 
 
-  <title>Hello World | peter阡陌</title>
+  <title>Spring Data JPA 2.0.8概述 | peter阡陌</title>
   
 
 
@@ -253,7 +253,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/29/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/07/translate/springdatajpa/Spring-Data-JPA-2-0-8概述/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="peter peng">
@@ -270,7 +270,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">Spring Data JPA 2.0.8概述</h1>
         
 
         <div class="post-meta">
@@ -282,8 +282,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-29T09:44:25+08:00">
-                2018-06-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-07T22:01:00+08:00">
+                2018-07-07
               </time>
             
 
@@ -293,6 +293,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Spring-Data-JPA-2-0-8-参考指南翻译/" itemprop="url" rel="index">
+                    <span itemprop="name">Spring Data JPA 2.0.8 参考指南翻译</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -301,9 +323,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/06/29/hello-world/#comments" itemprop="discussionUrl">
+                <a href="/2018/07/07/translate/springdatajpa/Spring-Data-JPA-2-0-8概述/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2018/06/29/hello-world/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2018/07/07/translate/springdatajpa/Spring-Data-JPA-2-0-8概述/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -331,15 +353,18 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>Spring Data JPA是Spring Data大家族中的一员，可以轻松实现基于JPA的存储库。这个模块处理基于JPA的数据访问层的增强支持。<br>它使构建使用数据访问技术的Spring驱动的应用程序变得更加容易。</p>
+<p>在相当长的一段时间内，实现应用程序的数据访问层是相当麻烦的。必须编写太多的样板代码来执行简单的查询，以及执行分页和审计。<br>Spring Data JPA旨在减少实际的工作量来显著改善数据访问层的实现。作为开发人员，你编写存储库接口，包括自定义查询方法，然后<br>Spring会自动提供实现。</p>
+<h1 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h1><ul>
+<li>对构建基于Spring和JPA的存储库的复杂支持</li>
+<li>支持Querydsl谓词，从而支持类型安全的JPA查询</li>
+<li>透明的域类审计</li>
+<li>分页支持，动态查询执行，集成自定义数据访问代码的能力</li>
+<li>在引导时验证带@Query注释的查询</li>
+<li>支持基于XML的实体映射</li>
+<li>通过引入@EnableJpaRepositories,启用基于Java配置的存储库配置</li>
+</ul>
+<h1 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h1><p>通过Spring Initializr引导你的应用程序</p>
 
       
     </div>
@@ -355,6 +380,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/翻译/" rel="tag"># 翻译</a>
+          
+            <a href="/tags/Spring-Data-JPA/" rel="tag"># Spring Data JPA</a>
+          
+        </div>
+      
 
       
       
@@ -364,14 +397,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/07/07/translate/springdatajpa/前言/" rel="next" title="前言">
+                <i class="fa fa-chevron-left"></i> 前言
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/06/29/第一部分 Spring Boot文档/" rel="prev" title="第一部分 Spring Boot文档">
-                第一部分 Spring Boot文档 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/07/07/translate/springdatajpa/Spring Data JPA中文参考指南/" rel="prev" title="Spring Data JPA中文参考指南">
+                Spring Data JPA中文参考指南 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -463,7 +500,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -474,7 +511,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -485,7 +522,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -518,7 +555,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#概述"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#特征"><span class="nav-number">2.</span> <span class="nav-text">特征</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#快速开始"><span class="nav-number">3.</span> <span class="nav-text">快速开始</span></a></li></ol></div>
             
 
           </div>
@@ -688,9 +725,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'http://yoursite.com/2018/06/29/hello-world/';
-          this.page.identifier = '2018/06/29/hello-world/';
-          this.page.title = 'Hello World';
+          this.page.url = 'http://yoursite.com/2018/07/07/translate/springdatajpa/Spring-Data-JPA-2-0-8概述/';
+          this.page.identifier = '2018/07/07/translate/springdatajpa/Spring-Data-JPA-2-0-8概述/';
+          this.page.title = 'Spring Data JPA 2.0.8概述';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://https-zhifengpeng-github-io.disqus.com/embed.js';
